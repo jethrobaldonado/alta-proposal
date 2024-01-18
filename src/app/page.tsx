@@ -11,17 +11,19 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-      <main className="w-screen h-screen overflow-hidden font-sans">
+      <main className="w-screen h-screen font-sans">
           <Banner />
           <Welcome />
           <Story />
           <Accomodations />
-          <Dining />
-          <Meetings />
-          <Wellness />
-          <BooknowSection />
-          <Map />
-          <Footer />
+          <div className="flex flex-col justify-center items-center">
+              <Dining />
+              <Meetings />
+              <Wellness />
+          </div>
+          {/*<BooknowSection />*/}
+          {/*<Map />*/}
+          {/*<Footer />*/}
       </main>
   )
 }

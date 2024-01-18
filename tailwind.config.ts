@@ -17,7 +17,17 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'hero-image': "url('/images/banner.jpg')",
+        'about-text': "url('/images/alta-wide-text.svg')",
+        'waves': "url('/images/waves.svg')",
       },
+      colors: {
+        altaGray: '#444444',
+        altaOrange: '#A05C3A',
+        altaBrightOrange: '#FB5604',
+        altaDarkOrange: '#852E03',
+        altaLightOrange: '#FFC2A4',
+        altaBrownOrange: '#BF7E5E',
+      }
     },
   },
   plugins: [],
