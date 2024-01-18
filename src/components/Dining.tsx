@@ -19,7 +19,7 @@ export default function Dining() {
                     </p>
                     <h5 className="text-lg mb-3">Private Events</h5>
                     <p>
-                        Elevate your special occasions with our catering services. Whether it's an intimate gathering or a
+                        Elevate your special occasions with our catering services. Whether it&apos;s an intimate gathering or a
                         grand celebration, our culinary team will create a bespoke menu that exceeds your expectations.
                     </p>
                 </div>

@@ -19,7 +19,7 @@ export default function Wellness() {
                     </p>
                     <h5 className="text-lg mb-3">Swimming Pool</h5>
                     <p>
-                        Take a refreshing dip in our sparkling swimming pool, surrounded by lush landscapes. Whether it's a leisurely swim or a moment of relaxation by the poolside, our aquatic oasis provides a perfect escape.
+                        Take a refreshing dip in our sparkling swimming pool, surrounded by lush landscapes. Whether it&apos;s a leisurely swim or a moment of relaxation by the poolside, our aquatic oasis provides a perfect escape.
                     </p>
                 </div>
             </ContainerThirds>
