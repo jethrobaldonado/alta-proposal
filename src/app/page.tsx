@@ -1,29 +1,29 @@
+'use client'
+
 import Banner from "@/components/Banner";
 import Welcome from "@/components/Welcome";
 import Story from "@/components/Story";
-import Accomodations from "@/components/Accomodations";
+import Accommodations from "@/components/Accommodations";
 import Dining from "@/components/Dining";
 import Meetings from "@/components/Meetings";
 import Wellness from "@/components/Wellness";
-import BooknowSection from "@/components/BooknowSection";
-import Map from "@/components/Map";
-import Footer from "@/components/Footer";
+import {useRouter} from "next/navigation";
 
 export default function Home() {
-  return (
-      <main className="w-screen h-screen font-sans overflow-x-hidden">
-          <Banner />
-          <Welcome />
-          <Story />
-          <Accomodations />
-          <div className="flex flex-col justify-center items-center">
-              <Dining />
-              <Meetings />
-              <Wellness />
-          </div>
-          {/*<BooknowSection />*/}
-          {/*<Map />*/}
-          {/*<Footer />*/}
-      </main>
-  )
+    const router = useRouter();
+    return (
+        <main className="w-screen h-screen font-sans overflow-x-hidden">
+            <Banner
+                handleClick={() => router.push('/amenities')}
+            />
+            <Welcome/>
+            <Story/>
+            <Accommodations/>
+            <div className="flex flex-col justify-center items-center">
+                <Dining/>
+                <Meetings/>
+                <Wellness/>
+            </div>
+        </main>
+    )
 }

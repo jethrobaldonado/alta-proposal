@@ -1,4 +1,4 @@
-export default function Accomodations() {
+export default function Accommodations() {
     return (
         <div className="flex py-16 bg-waves bg-no-repeat bg-bottom">
             <div className="w-1/2 px-6 flex justify-center">
@@ -20,7 +20,8 @@ export default function Accomodations() {
                         our guests.
                     </p>
                     <button
-                        className="bg-altaBrownOrange hover:bg-opacity-75 text-white text-sm py-3 px-6 font-semibold mb-12">
+                        className="bg-altaBrownOrange hover:bg-opacity-75 text-white text-sm py-3 px-6 font-semibold mb-12"
+                    >
                         Discover ↓
                     </button>
                 </section>
