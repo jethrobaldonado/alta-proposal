@@ -43,13 +43,13 @@ export default function Home() {
                     <Accommodations/>
                 </ParallaxLayer>
                 <ParallaxLayer
-                    speed={1}
+                    speed={0.3}
                     offset={4}
                 >
                         <Dining/>
                 </ParallaxLayer>
                 <ParallaxLayer
-                    speed={1}
+                    speed={0.3}
                     offset={5}
                 >
                     <Meetings/>
