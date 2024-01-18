@@ -1,10 +1,10 @@
 export default function Accommodations() {
     return (
-        <div className="flex py-16 bg-waves bg-no-repeat bg-bottom">
+        <div className="flex py-16">
             <div className="w-1/2 px-6 flex justify-center">
                 <img src="/images/sliders/slider-1.jpg" alt="About us" style={{height: '100%', width: '100%'}}/>
             </div>
-            <div className="w-1/2 px-48 flex flex-col justify-center text-sm -z-10">
+            <div className="w-1/2 px-48 flex flex-col justify-center text-sm bg-waves bg-no-repeat bg-bottom">
                 <section className="text-altaGray">
                     <h6 className="text-gray-400 text-sm mb-2">Our Accommodations</h6>
                     <h3 className="font-serif text-4xl text-altaOrange mb-6">Luxurious Retreats: Unwind in Style at Alta

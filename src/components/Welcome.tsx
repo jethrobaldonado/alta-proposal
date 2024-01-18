@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Welcome() {
     return (
-        <div className="flex py-16 bg-about-text bg-no-repeat bg-left-bottom">
-            <div className="w-1/2 px-32 flex flex-col justify-center text-sm -z-10">
+        <div className="flex py-16">
+            <div className="w-1/2 px-32 flex flex-col justify-center text-sm bg-about-text bg-no-repeat bg-left-bottom">
                 <section className="text-altaGray">
                     <h6 className="text-gray-400 text-sm mb-2">About Us</h6>
                     <h3 className="font-serif text-4xl text-altaOrange mb-6">Welcome to Alta D’ Tagaytay</h3>

@@ -24,8 +24,8 @@ export default function Story() {
     ];
 
     return (
-        <div className="flex bg-waves bg-no-repeat bg-left-bottom">
-            <div className="w-1/2 bg-altaDarkOrange h-screen text-white px-32 flex flex-col justify-center text-sm -z-10">
+        <div className="flex">
+            <div className="w-1/2 bg-altaDarkOrange h-screen text-white px-32 flex flex-col justify-center text-sm bg-waves bg-no-repeat bg-left-bottom">
                 <h6 className="text-gray-400 text-sm mb-2">Alta D’ Tagaytay</h6>
                 <h3 className="font-serif text-4xl mb-6">Our Story</h3>
                 <p className="mb-10">
