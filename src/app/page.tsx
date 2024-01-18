@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-      <main className="w-screen h-screen font-sans">
+      <main className="w-screen h-screen font-sans overflow-x-hidden">
           <Banner />
           <Welcome />
           <Story />
